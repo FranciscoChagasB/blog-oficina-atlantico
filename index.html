@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minhas Aventuras</title>
+    <link rel="stylesheet" href="src/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="logo">Minhas Aventuras</h1>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#aventuras">Aventuras</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="sobre" class="section">
+        <div class="container">
+            <h2>Sobre Mim</h2>
+            <p>Olá, sou Francisco das Chagas, um aventureiro apaixonado por explorar o mundo e compartilhar minhas experiências. Estou constantemente em busca de novos desafios, aprendendo com cada destino visitado e colecionando histórias incríveis. Aqui, você encontrará relatos das minhas viagens, dicas práticas e curiosidades sobre os lugares que descobri.</p>
+        </div>
+    </section>
+
+    <section id="aventuras" class="sectionAventuras">
+        <div class="container">
+            <h2>Minhas Aventuras</h2>
+            <div class="aventuras-grid">
+                <div class="aventura-item">
+                    <img src="assets/img-chapada-veadeiros.jfif" alt="Imagem da Chapada dos Veadeiros">
+                    <h3>Chapada dos Veadeiros</h3>
+                    <p>Trilhas, cachoeiras e um dos cenários naturais mais impressionantes do Brasil.</p>
+                </div>
+                <div class="aventura-item">
+                    <img src="assets/img-pyongyang.jfif" alt="Imagem de Pyongyang">
+                    <h3>Pyongyang</h3>
+                    <p>Uma cidade repleta de história, cultura única e um destino menos conhecido, mas fascinante.</p>
+                </div>
+                <div class="aventura-item">
+                    <img src="assets/img-ouro-preto.jfif" alt="Imagem de Ouro Preto">
+                    <h3>Ouro Preto</h3>
+                    <p>Uma cidade colonial rica em história e cultura, famosa pelo seu centro histórico e gastronomia mineira.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato" class="sectionContato">
+        <div class="container">
+            <h2>Contato</h2>
+            <p>Tem interesse em saber mais sobre minhas viagens ou deseja entrar em contato? Preencha o formulário abaixo e eu retornarei o mais breve possível!</p>
+            <form action="https://formsubmit.co/inserirSeuEmail@email.com" method="POST">
+                <input type="text" name="Nome" placeholder="Seu nome" required>
+                <input type="email" name="Email" placeholder="Seu email" required>
+                <textarea name="Mensagem" placeholder="Sua mensagem" cols="30" rows="4"></textarea>
+                <button type="submit" class="btn">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Francisco das Chagas. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
